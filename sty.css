@@ -1,0 +1,298 @@
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+ 
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+ body{
+  font-family: 'Open Sans', sans-serif;
+  height:3700px;
+  overflow-x: hidden;
+     background: #f3a683;
+   
+   }
+
+
+
+/*start of cover picture--------------------------- */
+
+   .head .slider  {
+    
+     height:536px;  /*  7gm el pic  */
+      background-color:white;
+      background-size:cover; /*css3*/  
+     background-image:url("images/go.jpeg");    /*cover pic*/
+     overflow:hidden;
+        
+      
+ }
+ 
+ 
+  
+ .head .slider img {
+  width:100%; 
+
+
+
+ }
+.head .slider .intro{   /*intro contain h2 , span*/
+ 
+ margin-top:150px;
+ margin-left:80px;
+ 
+}
+
+.head .slider h2 {
+  
+  text-align:left;
+  margin-top:0px;
+  margin-bottom:0px;
+ color:white;
+  
+  
+  
+ }
+ 
+ 
+ .head .slider  span {
+  margin-top:5px;
+  text-align:left;
+  color:white;
+ font-size:50px;
+ font-weight:bold;
+  
+  
+  
+ }
+
+
+
+
+
+
+
+/* end of cover pic */
+
+
+ 
+ 
+ 
+ h1{   /*all head 1*/
+ 
+ 
+ font-weight:bold;
+ margin-top:25px;
+ padding-bottom:25px;
+  padding-top:25px;
+ margin-bottom:0px;
+/*background-color:#EAC997;*/
+text-align:center
+ } 
+ 
+ 
+ /*start of tap   log in and regster------------*/
+ 
+ .container{
+    
+    width:100%; 
+    margin:auto ;
+    overflow:hidden;
+           background-color:#0a3d62;
+
+    
+    
+ }
+ .header .navbar  {     /* tap contain login and register buttons*/
+
+       color:white;
+      background-color:#0a3d62;
+      overflow:hidden;
+       width:100%;
+    
+ }
+ 
+ 
+  .header .navbar h2{
+    float:left;
+    text-transform:uppercase;
+    margin-top:50px;
+    margin-left: 5%;
+
+  }
+  
+  
+   .header .navbar h2 span{
+     color:white;
+     
+
+  }
+  
+  
+  
+  
+ .header .navbar ul{     /*log in and register button in list */
+    list-style:none; /* 4al el no2t menha  */
+    padding:10px;
+    overflow:hidden;
+    float:right      /*direction right*/
+  
+ }
+
+a{
+    float: left;
+}
+ 
+ .header .navbar ul li {        /*every element in the list*/
+   
+     float:left;
+      padding:10px;
+ }
+  .header .navbar ul li  button{
+   
+    border-radius:15px;
+    border:none;
+    margin:10px;
+    padding:15px;
+    overflow:hidden;
+    cursor:pointer;
+    
+ }
+ 
+  .header .navbar ul li :hover{   /*when mouse on it*/
+ 
+  background-color:#C99262;
+  
+ }
+ 
+   /*   end of tap log in and register          */
+  /* start of 6 main pictures */
+  
+  
+ 
+ 
+  .picture .pic div{
+ 
+  width:33.33333%;   /*3 pictures in each row*/
+   float:left;
+   padding-top:10px;
+   padding-left:35px;
+   padding-right:0px;
+   
+  }
+ 
+  
+ 
+ 
+ .picture .pic img {
+  
+  
+  width:95%;
+  
+
+   
+  
+ }
+ 
+ 
+.picture .pic img:hover {
+  
+
+  transform: scale(1.17);        /*zoom when mouse on  it*/
+}
+
+
+
+/*end of 6 main pictures*/
+ /*-------------start of 3 pictures in each link of 6 main pictures  */
+
+ 
+  .new div,
+  .new2 div,
+  .new3 div,
+  .new4 div,
+  .new5 div,
+  .new6 div{
+  float:left;
+   padding-left:20px;
+  
+  width:33.333%;
+ 
+
+  
+  
+ }
+ 
+ 
+  .new div img ,
+  .new2 div img,
+  .new3 div img,
+  .new4 div img,
+  .new5 div img,
+  .new6 div img{
+  
+  width:95%;
+ 
+  
+  
+ }
+ /*-------------end of 3 pictures in each link of 6 main pictures  */
+   /*----------------start nav bar at end of page-------*/
+ 
+ .heade .navba  {  
+
+       color:white;
+      background-color:#C99262;
+      overflow:hidden;
+       width:1700px;
+       
+    
+ }
+ 
+ 
+  .heade .navba h2{
+    float:left;
+   
+    margin-top:50px;
+
+  }
+  
+  
+   .heade .navba h2 span{
+     color:black;
+     
+
+  }
+ 
+ 
+ 
+    /*----------------end nav bar at end of page-------*/
+ 
+ 
+ 
+ 
+ 
+ /*-------------end of 3 pictures in each link of 6 main pictures  */
+ /********end of all/-----------------------------------------------------------*/
+ 
+
+ 
+ * {box-sizing: border-box;} /*make  code better in genral  */
+
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

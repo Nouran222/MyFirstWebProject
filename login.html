@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="main.css">
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script> <!--the source of the icons-->
+        
+    </head>
+    <body>
+        <div class="content">
+<!--            Copy Start-->
+            <nav>
+                <a href="index.html"><i class="fas fa-camera-retro fa-3x"></i></a>
+                <ul class="nav-links">
+                    <li><a href="AboutUs.html">About Us</a></li>
+                </ul>
+            </nav>
+<!--            Copy End-->
+            <div class="container">
+                <div class="header">
+                    <h2>Login</h2>
+                </div><!--create a form-->
+                <form class="form" id="form">
+                
+                    <div class="form-control "> <!--create an input for the email-->
+                        <label>Email</label>
+                        <input type="text" placeholder="example@example.com" id="email">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    
+                    <div class="form-control"> <!--create an input for the password-->
+                        <label>Password</label>
+                        <input type="password" placeholder="password" id="password">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Error message</small>
+                    </div>
+                    
+<!--                    style="color: white; border: 2px solid #fff;"-->
+                    
+                    <input type="submit" class="btn" value="Submit" onSubmit="checkInputs()"> <!--create a submit button-->
+                </form>
+            </div>
+        </div>
+        <script src="login.js"></script>
+        
+    </body>
+    
+</html>

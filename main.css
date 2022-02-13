@@ -1,0 +1,152 @@
+/* the font url */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3a683;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;       /*to display the content at the center vertically */
+    justify-content: center;  /*to display the content at the center horizontally */
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    display: grid;
+    justify-items: center;
+    grid-gap: 5vh;
+}
+
+
+nav{
+    height: 10vh;
+    background: #0a3d62;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 4%;
+    }
+
+i.fa-camera-retro{
+    color: #f3a683;
+}
+
+.nav-links{
+    list-style: none;
+}
+
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: #f3a683;
+    font-weight: bold;
+}
+
+.container{
+    background-color: #0a3d62; 
+    border-radius: 5px; /*to make the terminales curvey*/
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.header{
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+
+.header h2{
+    margin: 0;
+    text-transform: uppercase; /* to convert the text to uppercase*/
+    text-align: center;
+}
+
+.form{
+    padding: 30px 40px; /*up and down then left and right*/
+}
+
+.form-control{ /*for each input in the form*/
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label{ /*for each label in the form*/
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control input{
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.form-control.success input{ /*the color appears when the user enter a valid input*/
+    border-color: #2ecc71;
+    
+}
+
+.form-control.error input{  /*the color appears when the user enter an invalid input*/
+    border-color: #e74c3c;
+}
+
+.form-control i{  /*for icons*/
+    position: absolute;
+    visibility: hidden;
+    top: 40px;
+    right: 10px;
+}
+
+.form-control.success i.fa-check-circle{ /* to the check circle */
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle{ /* to th exclamation circle */
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small{ 
+    position: absolute;
+    visibility: hidden;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.error small{ /* to the error message */
+    color: #e74c3c;
+    visibility: visible;
+}
+.btn{
+    background-color: #0a3d62;
+    border: 2px solid #f3a683;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #f3a683;
+}
